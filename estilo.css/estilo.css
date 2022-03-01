@@ -1,0 +1,12 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
